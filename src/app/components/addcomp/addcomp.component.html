@@ -1,0 +1,47 @@
+
+
+<form (ngSubmit)="Insert()">
+
+    
+    <h1 style="width: 900px; height: 30px; text-align: center;">ADD THE NEW PRODUCT</h1>
+
+    
+    <label> Rate OF The Product </label> 
+    
+    <input type="number"
+    name="Rate"
+    [(ngModel)]="ep.Rate"
+    placeholder="Enter The Rate"
+    style="width: 300px; height: 30px;">  <br>
+    
+
+
+
+    
+
+    <label> Discription Of The Product </label>
+    <textarea type="text"
+    name="discription"
+    [(ngModel)]="ep.discription"
+    placeholder="Enter The discription"
+    style="width: 300px; height: 50px;"></textarea> <br>
+    
+
+    <label> Name Of The Product </label>
+    <input type="text"
+    name="name"
+    [(ngModel)]="ep.name"
+    placeholder="Enter The name"
+    style="width: 300px; height: 30px;"><br>
+    
+
+
+    <button type="submit" style="width: 200px; height: 30px;">Add Expenses</button>
+
+    
+
+
+
+
+
+</form>

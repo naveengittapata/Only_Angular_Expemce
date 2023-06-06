@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: mintcream; 
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 150px;
+  }
+  
+
+  
+  
+  
+  
+
+ 
+
+  
