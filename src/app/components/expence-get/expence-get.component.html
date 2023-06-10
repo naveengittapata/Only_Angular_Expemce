@@ -4,6 +4,28 @@
 
 <h1>Expenses</h1>
 
+<!-- <form (submit)="getdataonID()">
+  <input type="text" name="mydata" [(ngModel)]="mydata" placeholder="Enter your search query">
+  <button type="submit">Search</button>
+</form> -->
+
+
+<form (ngSubmit)="getdataonID()">
+  <input type="text" name="query" [(ngModel)]="id" placeholder="Enter your search query">
+  <button type="submit">Search</button>
+  <p>{{ mydata | json}}</p>
+</form>
+
+
+
+<!-- <p [textContent]="mydata"></p> -->
+
+
+
+
+
+
+
 <table>
   <thead>
     <tr>
@@ -22,5 +44,6 @@
     </tr>
   </tbody>
 </table>
+
 
 
